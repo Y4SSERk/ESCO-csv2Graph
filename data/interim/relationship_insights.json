@@ -1,0 +1,50 @@
+{
+  "total_occupations": 3039,
+  "total_skills": 13492,
+  "total_relationships": 129004,
+  "relationship_types": {
+    "essential": 67622,
+    "optional": 61382
+  },
+  "skill_types": {
+    "skill/competence": 93636,
+    "knowledge": 35309
+  },
+  "reuse_levels": {},
+  "avg_skills_per_occupation": 42.449489963803885,
+  "avg_occupations_per_skill": 9.561517936554996,
+  "hierarchy_levels": 6,
+  "hierarchy_completeness": {
+    "level_0": 640,
+    "level_1": 636,
+    "level_2": 608,
+    "level_3": 452
+  },
+  "collection_count": 6,
+  "collection_coverage": {
+    "digital_skills": 99.53271028037383,
+    "digcomp_skills": 100.0,
+    "green_skills": 99.32318104906938,
+    "language_skills": 0.8356545961002786,
+    "transversal_skills": 12.631578947368421,
+    "research_skills": 92.5
+  },
+  "network_nodes": 16531,
+  "network_edges": 128987,
+  "network_density": 0.000944069480562706,
+  "connected_components": 1,
+  "degree_stats": {
+    "min": 1,
+    "max": 347,
+    "mean": 15.605468513701531,
+    "std": 24.764555665867096,
+    "percentiles": {
+      "25": 2.0,
+      "50": 5.0,
+      "75": 21.0,
+      "90": 43.0,
+      "95": 58.0,
+      "99": 109.0
+    }
+  }
+}
