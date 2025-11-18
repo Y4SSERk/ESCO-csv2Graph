@@ -1,0 +1,408 @@
+{
+  "node_labels": {
+    "Occupation": {
+      "description": "ESCO occupations with ISCO classification",
+      "properties": {
+        "uri": "STRING (UNIQUE)",
+        "preferredLabel": "STRING",
+        "altLabels": "STRING[]",
+        "description": "STRING",
+        "iscoGroup": "STRING",
+        "status": "STRING",
+        "code": "STRING",
+        "inScheme": "STRING",
+        "regulatedProfessionNote": "STRING",
+        "scopeNote": "STRING",
+        "skillCount": "INTEGER",
+        "essentialSkillCount": "INTEGER",
+        "optionalSkillCount": "INTEGER"
+      },
+      "indexes": [
+        "uri",
+        "preferredLabel",
+        "iscoGroup",
+        "code",
+        "skillCount"
+      ]
+    },
+    "Skill": {
+      "description": "Core ESCO skills with type and reuse level",
+      "properties": {
+        "uri": "STRING (UNIQUE)",
+        "preferredLabel": "STRING",
+        "altLabels": "STRING[]",
+        "description": "STRING",
+        "skillType": "STRING",
+        "reuseLevel": "STRING",
+        "status": "STRING",
+        "code": "STRING",
+        "inScheme": "STRING",
+        "scopeNote": "STRING",
+        "occupationCount": "INTEGER",
+        "essentialOccupationCount": "INTEGER",
+        "collections": "STRING[]"
+      },
+      "indexes": [
+        "uri",
+        "preferredLabel",
+        "skillType",
+        "reuseLevel",
+        "occupationCount"
+      ]
+    },
+    "SkillGroup": {
+      "description": "Skill groups and categories",
+      "properties": {
+        "uri": "STRING (UNIQUE)",
+        "preferredLabel": "STRING",
+        "altLabels": "STRING[]",
+        "description": "STRING",
+        "code": "STRING",
+        "inScheme": "STRING",
+        "scopeNote": "STRING",
+        "hierarchyLevel": "INTEGER",
+        "childCount": "INTEGER"
+      },
+      "indexes": [
+        "uri",
+        "preferredLabel",
+        "hierarchyLevel"
+      ]
+    },
+    "ISCOGroup": {
+      "description": "International Standard Classification of Occupations groups",
+      "properties": {
+        "uri": "STRING (UNIQUE)",
+        "preferredLabel": "STRING",
+        "code": "STRING",
+        "description": "STRING",
+        "inScheme": "STRING",
+        "occupationCount": "INTEGER",
+        "depth": "INTEGER"
+      },
+      "indexes": [
+        "uri",
+        "code",
+        "depth"
+      ]
+    }
+  },
+  "collection_labels": {
+    "DigitalSkill": {
+      "extends": "Skill",
+      "description": "Digital competence skills from DigComp framework",
+      "additional_props": {
+        "collection": "STRING",
+        "digCompArea": "STRING",
+        "coverageLevel": "STRING"
+      }
+    },
+    "GreenSkill": {
+      "extends": "Skill",
+      "description": "Skills related to environmental sustainability",
+      "additional_props": {
+        "collection": "STRING",
+        "sustainabilityDomain": "STRING",
+        "coverageLevel": "STRING"
+      }
+    },
+    "LanguageSkill": {
+      "extends": "Skill",
+      "description": "Language and communication skills",
+      "additional_props": {
+        "collection": "STRING",
+        "languageFamily": "STRING",
+        "coverageLevel": "STRING",
+        "isUnderutilized": "BOOLEAN"
+      }
+    },
+    "TransversalSkill": {
+      "extends": "Skill",
+      "description": "Transferable skills across occupations",
+      "additional_props": {
+        "collection": "STRING",
+        "transversalCategory": "STRING",
+        "coverageLevel": "STRING",
+        "isUnderutilized": "BOOLEAN"
+      }
+    },
+    "ResearchSkill": {
+      "extends": "Skill",
+      "description": "Research and analytical skills",
+      "additional_props": {
+        "collection": "STRING",
+        "researchDomain": "STRING",
+        "coverageLevel": "STRING"
+      }
+    }
+  },
+  "relationships": {
+    "BROADER_THAN_SKILL": {
+      "direction": "OUTGOING",
+      "description": "Skill hierarchy relationships",
+      "source": [
+        "Skill",
+        "SkillGroup"
+      ],
+      "target": [
+        "Skill",
+        "SkillGroup"
+      ],
+      "properties": {
+        "hierarchyLevel": "INTEGER",
+        "isDirect": "BOOLEAN",
+        "depth": "INTEGER"
+      }
+    },
+    "BROADER_THAN_OCCUPATION": {
+      "direction": "OUTGOING",
+      "description": "Occupation hierarchy relationships",
+      "source": [
+        "Occupation",
+        "ISCOGroup"
+      ],
+      "target": [
+        "Occupation",
+        "ISCOGroup"
+      ],
+      "properties": {
+        "hierarchyLevel": "INTEGER",
+        "isDirect": "BOOLEAN",
+        "depth": "INTEGER"
+      }
+    },
+    "REQUIRES": {
+      "direction": "OUTGOING",
+      "description": "Occupation requires specific skill (essential)",
+      "source": [
+        "Occupation"
+      ],
+      "target": [
+        "Skill",
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "properties": {
+        "relationType": "STRING",
+        "skillType": "STRING",
+        "isEssential": "BOOLEAN",
+        "weight": "FLOAT"
+      }
+    },
+    "OPTIONAL_SKILL": {
+      "direction": "OUTGOING",
+      "description": "Occupation optionally uses skill",
+      "source": [
+        "Occupation"
+      ],
+      "target": [
+        "Skill",
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "properties": {
+        "relationType": "STRING",
+        "skillType": "STRING",
+        "isEssential": "BOOLEAN",
+        "weight": "FLOAT"
+      }
+    },
+    "HAS_PREREQUISITE": {
+      "direction": "OUTGOING",
+      "description": "Skill requires another skill as prerequisite",
+      "source": [
+        "Skill",
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "target": [
+        "Skill",
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "properties": {
+        "relationType": "STRING",
+        "dependencyLevel": "STRING",
+        "isStrong": "BOOLEAN"
+      }
+    },
+    "RELATED_TO": {
+      "direction": "UNDIRECTED",
+      "description": "Skills are related or complementary",
+      "source": [
+        "Skill",
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "target": [
+        "Skill",
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "properties": {
+        "relationType": "STRING",
+        "strength": "FLOAT",
+        "correlation": "FLOAT"
+      }
+    },
+    "PART_OF": {
+      "direction": "OUTGOING",
+      "description": "Entity belongs to a group or collection",
+      "source": [
+        "Occupation",
+        "Skill"
+      ],
+      "target": [
+        "SkillGroup",
+        "ISCOGroup"
+      ],
+      "properties": {
+        "membershipType": "STRING",
+        "isPrimary": "BOOLEAN"
+      }
+    },
+    "IN_COLLECTION": {
+      "direction": "OUTGOING",
+      "description": "Skill belongs to a specific collection with coverage metadata",
+      "source": [
+        "Skill"
+      ],
+      "target": [
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "properties": {
+        "coverageLevel": "STRING",
+        "isActiveInNetwork": "BOOLEAN",
+        "occupationUsage": "INTEGER"
+      }
+    },
+    "COMPLEMENTARY_TO": {
+      "direction": "UNDIRECTED",
+      "description": "Skills from different collections that work well together",
+      "source": [
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "target": [
+        "DigitalSkill",
+        "GreenSkill",
+        "LanguageSkill",
+        "TransversalSkill",
+        "ResearchSkill"
+      ],
+      "properties": {
+        "synergyScore": "FLOAT",
+        "commonOccupations": "INTEGER"
+      }
+    }
+  },
+  "constraints": [
+    "CREATE CONSTRAINT occupation_uri IF NOT EXISTS FOR (o:Occupation) REQUIRE o.uri IS UNIQUE;",
+    "CREATE CONSTRAINT skill_uri IF NOT EXISTS FOR (s:Skill) REQUIRE s.uri IS UNIQUE;",
+    "CREATE CONSTRAINT skill_group_uri IF NOT EXISTS FOR (sg:SkillGroup) REQUIRE sg.uri IS UNIQUE;",
+    "CREATE CONSTRAINT isco_group_uri IF NOT EXISTS FOR (ig:ISCOGroup) REQUIRE ig.uri IS UNIQUE;",
+    "CREATE CONSTRAINT digital_skill_uri IF NOT EXISTS FOR (ds:DigitalSkill) REQUIRE ds.uri IS UNIQUE;",
+    "CREATE CONSTRAINT green_skill_uri IF NOT EXISTS FOR (gs:GreenSkill) REQUIRE gs.uri IS UNIQUE;",
+    "CREATE CONSTRAINT language_skill_uri IF NOT EXISTS FOR (ls:LanguageSkill) REQUIRE ls.uri IS UNIQUE;",
+    "CREATE CONSTRAINT transversal_skill_uri IF NOT EXISTS FOR (ts:TransversalSkill) REQUIRE ts.uri IS UNIQUE;",
+    "CREATE CONSTRAINT research_skill_uri IF NOT EXISTS FOR (rs:ResearchSkill) REQUIRE rs.uri IS UNIQUE;"
+  ],
+  "indexes": [
+    "CREATE INDEX occupation_label IF NOT EXISTS FOR (o:Occupation) ON (o.preferredLabel);",
+    "CREATE INDEX occupation_isco IF NOT EXISTS FOR (o:Occupation) ON (o.iscoGroup);",
+    "CREATE INDEX occupation_code IF NOT EXISTS FOR (o:Occupation) ON (o.code);",
+    "CREATE INDEX occupation_skill_count IF NOT EXISTS FOR (o:Occupation) ON (o.skillCount);",
+    "CREATE INDEX occupation_isco_label IF NOT EXISTS FOR (o:Occupation) ON (o.iscoGroup, o.preferredLabel);",
+    "CREATE INDEX skill_label IF NOT EXISTS FOR (s:Skill) ON (s.preferredLabel);",
+    "CREATE INDEX skill_type IF NOT EXISTS FOR (s:Skill) ON (s.skillType);",
+    "CREATE INDEX skill_reuse_level IF NOT EXISTS FOR (s:Skill) ON (s.reuseLevel);",
+    "CREATE INDEX skill_occupation_count IF NOT EXISTS FOR (s:Skill) ON (s.occupationCount);",
+    "CREATE INDEX skill_type_label IF NOT EXISTS FOR (s:Skill) ON (s.skillType, s.preferredLabel);",
+    "CREATE INDEX skill_collections IF NOT EXISTS FOR (s:Skill) ON (s.collections);",
+    "CREATE INDEX skill_group_label IF NOT EXISTS FOR (sg:SkillGroup) ON (sg.preferredLabel);",
+    "CREATE INDEX skill_group_level IF NOT EXISTS FOR (sg:SkillGroup) ON (sg.hierarchyLevel);",
+    "CREATE INDEX isco_group_code IF NOT EXISTS FOR (ig:ISCOGroup) ON (ig.code);",
+    "CREATE INDEX isco_group_depth IF NOT EXISTS FOR (ig:ISCOGroup) ON (ig.depth);",
+    "CREATE INDEX rel_requires IF NOT EXISTS FOR ()-[r:REQUIRES]-() ON (r.relationType, r.isEssential);",
+    "CREATE INDEX rel_optional IF NOT EXISTS FOR ()-[r:OPTIONAL_SKILL]-() ON (r.relationType, r.isEssential);",
+    "CREATE INDEX rel_broader_skill IF NOT EXISTS FOR ()-[r:BROADER_THAN_SKILL]-() ON (r.hierarchyLevel, r.isDirect);",
+    "CREATE INDEX rel_broader_occupation IF NOT EXISTS FOR ()-[r:BROADER_THAN_OCCUPATION]-() ON (r.hierarchyLevel, r.isDirect);",
+    "CREATE INDEX rel_collection IF NOT EXISTS FOR ()-[r:IN_COLLECTION]-() ON (r.coverageLevel, r.isActiveInNetwork);",
+    "CREATE FULLTEXT INDEX occupation_search IF NOT EXISTS FOR (o:Occupation) ON EACH [o.preferredLabel, o.altLabels, o.description];",
+    "CREATE FULLTEXT INDEX skill_search IF NOT EXISTS FOR (s:Skill) ON EACH [s.preferredLabel, s.altLabels, s.description];"
+  ],
+  "query_patterns": [
+    "career_pathways_enhanced",
+    "skill_gap_analysis_enhanced",
+    "hierarchical_exploration_enhanced",
+    "collection_analysis_enhanced",
+    "high_demand_skills",
+    "coverage_gap_analysis",
+    "network_centrality_analysis"
+  ],
+  "performance_recommendations": [
+    "USE PERIODIC COMMIT 10000 for large relationship imports",
+    "Create constraints BEFORE indexes for optimal performance",
+    "Use apoc.periodic.iterate for batched relationship creation",
+    "Pre-compute counts during import using WITH clauses",
+    "Use parameterized queries for frequently executed patterns",
+    "Monitor heap usage during large imports (>100K nodes)",
+    "Consider separate transaction logs for large imports",
+    "Use :auto in Neo4j Browser for scripts >1000 lines",
+    "Create separate import files for high/low coverage collections",
+    "Use MERGE instead of CREATE for collection relationships to avoid duplicates"
+  ],
+  "dataset_characteristics": {
+    "total_occupations": 3039,
+    "total_skills": 13492,
+    "total_relationships": 129004,
+    "network_density": 0.000944069480562706,
+    "avg_degree": 15.605468513701531,
+    "collection_coverage": {
+      "digital_skills": 99.53271028037383,
+      "digcomp_skills": 100.0,
+      "green_skills": 99.32318104906938,
+      "language_skills": 0.8356545961002786,
+      "transversal_skills": 12.631578947368421,
+      "research_skills": 92.5
+    }
+  },
+  "optimization_strategy": {
+    "batch_size_recommendation": "10,000 records",
+    "memory_estimation": "16GB RAM",
+    "priority_imports": [
+      "DigitalSkill",
+      "GreenSkill",
+      "ResearchSkill"
+    ],
+    "special_handling": [
+      "LanguageSkill",
+      "TransversalSkill"
+    ]
+  }
+}

@@ -1,0 +1,743 @@
+conceptType,conceptUri,iscoGroup,preferredLabel,altLabels,hiddenLabels,status,modifiedDate,regulatedProfessionNote,scopeNote,definition,inScheme,description,code
+Occupation,http://data.europa.eu/esco/occupation/17e39591-7137-4960-94c8-8169f7a5d67b,3152,officer of the watch,"mid-level watch officer
+watchman
+officer of the navigational watch
+watch supervisor
+watch operations specialist
+watch officer
+navigation officer
+maritime operations officer
+officers of the engineering watch
+captain of the watch
+watch commander
+watchkeeper",,released,2024-01-10T10:55:17.287Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Officers of the watch lead the navigation of the operational level. Handle cargo and stowage tasks as well as control the operation of the ship. At the operational level, they take care for persons on board.",3152.6
+Occupation,http://data.europa.eu/esco/occupation/e8fca903-6590-48a8-8902-094bb41ee90c,2149,autonomous driving specialist,"highly automated drive engineer
+autonomous driving engineer
+ADF testing and validation engineer
+AV engineer
+autonomous vehicle engineer
+C-V2X specialist
+connected car specialist
+autonomous vehicle specialist
+ADAS testing and validation engineer
+self-driving car engineer
+autonomous car specialist
+connected vehicle specialist",,released,2024-01-29T15:59:20.364Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Autonomous driving specialists design and oversee the operation of an autonomous vehicle. They collect data on systems performance, conduct vehicle testing and analyse test data. Autonomous driving specialists are aware of different technologies employed in self-driving cars, automotive systems and automotive technologies.",2149.3
+Occupation,http://data.europa.eu/esco/occupation/0ab77768-9031-4ccc-9ab8-1f73cbb36bc7,8143,tissue paper perforating and rewinding operator,"tissue paper perforating and rewinding specialist
+tissue paper perforating and rewinding technician
+tissue paper perforating and rewinding worker
+tissue paper perforating and rewinding machine specialist
+tissue paper perforating and rewinding machine operator
+tissue paper perforating and rewinding machine technician
+toilet paper machine technician
+tissue paper perforating and rewinding operative
+toilet paper machine specialist
+toilet paper machine operator",,released,2024-01-23T10:11:07.213Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Tissue paper perforating and rewinding operators tend a machine that takes in tissue paper, perforates it, and rolls it up to create various types of sanitary paper.",8143.7
+Occupation,http://data.europa.eu/esco/occupation/2a914d26-42aa-46b5-acf3-097d51ba4617,2142,construction engineer,"construction project engineer
+construction design engineer
+buildng construction engineer
+site engineer
+building engineer
+engineering support manager",,released,2024-01-26T11:34:25.14Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Construction engineers interpret building designs and add technical specifications to construction projects. They integrate engineering principles into the designs to ensure that structures are safe and resistant. They work together with architects and engineers to transform design ideas into executable plans.,2142.1.2
+Occupation,http://data.europa.eu/esco/occupation/4c313f2a-704e-4d3c-a7c2-98e1b93c9e94,1324,import export manager in office furniture,"graduate import export manager in office furniture
+senior export manager in office furniture
+trainee import export manager in office furniture
+senior import manager in office furniture
+graduate export manager in office furniture
+assistant import export manager in office furniture
+trainee export manager in office furniture
+trainee import manager in office furniture
+assistant export manager in office furniture
+international trade compliance manager in office furniture
+international trade manager in office furniture
+graduate import manager in office furniture
+assistant import manager in office furniture
+customs compliance manager in office furniture
+senior import export manager in office furniture",,released,2024-01-26T11:37:43.148Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Import export managers in office furniture install and maintain procedures for cross-border business, coordinating internal and external parties.",1324.3.2.25
+Occupation,http://data.europa.eu/esco/occupation/657eeac9-5bb9-449d-a353-aa7d5f47e2b5,3116,colour sampling technician,"leather dyer
+color kitchen worker
+colour sampling technicians
+pelt dyer
+dyer
+colour kitchen technician
+colour kitchen worker
+tanning solution preparer",,released,2024-01-26T15:03:09.688Z,http://data.europa.eu/esco/regulated-professions/unregulated,"Includes people performing activities in colour kitchen, spraying and coating lines.",,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Colour sampling technicians prepare recipes of colours and dyeing mixes. They ensure consistency in colour while using materials from different sources.,3116.1.3
+Occupation,http://data.europa.eu/esco/occupation/7f0fe7d3-54c6-41e9-88ba-9d4f0f1a46b4,2152,microsystem engineer,"specialist in microelectromechanical systems
+microsystem engineering adviser
+microsystem technology engineering consultant
+engineer in microsystems
+microsystem technology engineering specialist
+micro-system engineer
+micro systems engineer
+microsystem engineering consultant
+micro system engineer
+microsystem technology engineer
+microsystem technology engineering expert
+advanced MEMS engineer
+microelectromechanical systems engineer
+microsystem engineering specialist
+microsystem technology engineering adviser
+micro-systems engineer
+engineer in micro-systems
+microsystems engineer
+senior MEMS engineer
+microsystem engineering expert
+engineer of microsystems
+MEMS engineer",,released,2024-01-26T15:39:39.48Z,http://data.europa.eu/esco/regulated-professions/unregulated,"Excludes <a resource=""http://data.europa.eu/esco/occupation/8c0f59c9-9a47-42e7-8287-aab19df4e6ab"" typeOf=""http://data.europa.eu/esco/model#Occupation"" href=""http://data.europa.eu/esco/occupation/8c0f59c9-9a47-42e7-8287-aab19df4e6ab""><span property=""http://www.w3.org/2000/01/rdf-schema#label"" xml:lang=""en"">microelectronics engineer</span></a>. 
+ Includes people using materials such as quartz, plastics and ceramics.",,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/8ae4b9f3-507e-4057-a145-2f96f0132613","Microsystem engineers research, design, develop, and supervise the production of microelectromechanical systems (MEMS), which can be integrated in mechanical, optical, acoustic, and electronic products.",2152.1.10
+Occupation,http://data.europa.eu/esco/occupation/87580fa5-39d2-4b7e-9274-b744e684f17c,3123,carpenter supervisor,"joinery shop supervisor
+joiner supervisor
+joinery supervisor
+carpentry foreman
+carpentry overseer
+carpentry supervisor
+timber workshop supervisor
+framer supervisor
+supervisor of carpentry operations",,released,2024-01-24T16:00:19.414Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Carpenter supervisors monitor carpentry operations in construction. They assign tasks and take quick decisions to resolve problems. They pass their skills on to apprentice carpenters.,3123.1.3
+Occupation,http://data.europa.eu/esco/occupation/776837b1-6f6b-4014-8330-d56918303e93,3422,snowboard instructor,"snowboard coach
+snowboard and ski instructor
+ski and snowboard instructor
+ski & snowboard instructor
+snowboard teacher
+snowboard trainer
+snowboard & ski instructor",,released,2024-01-26T11:33:14.193Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Snowboard instructors teach groups or individuals how to ride a snowboard. They instruct students of all ages and skill level individually or in groups. Snowboard instructors teach basic and advanced techniques of snowboarding by demonstrating exercises and giving feedback to students. They give advice on safety and on snowboarding equipment.,3422.4.5
+Occupation,http://data.europa.eu/esco/occupation/39e06c20-d262-44f9-a6a8-a0f3ba9e887c,8131,soap maker,"soapmaker
+soap boiler
+soap factory operator
+maker of soap
+soap and cosmetics maker
+artisan soap maker",,released,2024-02-02T09:05:06.323Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Soap makers operate equipments and mixers that produce soap, making sure the end product is produced according to specified formula.",8131.19
+Occupation,http://data.europa.eu/esco/occupation/d7e663b2-f042-47d8-9fda-b5b8ba30ca04,2144,aerospace engineer,"aeronautical engineer
+aerospace engineering expert
+aerospace project engineer
+missile design specialist
+aerospace development engineer
+missile designer
+aerostructure engineer
+aerospace test engineer
+aerospace engineering consultant
+aerostructures engineer
+vehicle system engineer
+astronautical engineer
+spacecraft engineer
+aerospace design engineer
+aerospace weapons engineer
+aerospace engineering specialist
+avionics engineer
+missile design expert
+aerospace engineering adviser
+aerospace engineers",,released,2023-07-05T15:06:15.801Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Aerospace engineers develop, test and oversee the manufacture of flight vehicles such as aircrafts, missiles, and spacecrafts. The field of engineering they are active in, can be divided into two branches: aeronautical engineering and astronautical engineering.",2144.1.1
+Occupation,http://data.europa.eu/esco/occupation/e74513c3-8ba8-462f-978c-0450522f4427,2310,chemistry lecturer,"chemical science teacher
+chemical science docent
+chemical science instructor
+chemistry instructor
+lecturer in chemistry
+university lecturer in chemistry
+chemical science lector
+senior lecturer in chemistry
+chemical science lecturer
+chemistry docent
+professor of chemistry
+specialist lecturer in chemistry
+higher education chemistry teacher
+university chemistry lecturer
+chemistry professor
+chemical sciences lector
+chemical science professor
+university chemistry teacher
+chemical sciences lecturer
+chemistry lector
+instructor in chemistry",,released,2024-01-25T10:45:29.856Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/8ae4b9f3-507e-4057-a145-2f96f0132613","Chemistry lecturers are subject professors, teachers, or lecturers who instruct students who have obtained an upper secondary education diploma in their own specialised field of study, chemistry, which is predominantly academic in nature. They work with their university research assistants and university teaching assistants 
+for the preparation of lectures and of exams, for leading laboratory practices, grading papers and for leading review and feedback sessions for the students. They also conduct academic research in their field of chemistry, publish their findings and liaise with other university colleagues.",2310.1.8
+Occupation,http://data.europa.eu/esco/occupation/bda98f02-4f92-4015-a0c8-b86b8abc711a,8153,clothing sample machinist,"sample clothing sewer
+sample sewing machinist
+sample garment machinist
+sample sewer
+garment sample machinist",,released,2024-01-26T15:03:49.448Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Clothing sample machinists create the first made-up sample of a garment design. They make decisions regarding the makeup of garments taking into consideration bulk production to ensure sealing samples are ready on time. They press finished garments and make quality control checks. ,8153.1.2
+Occupation,http://data.europa.eu/esco/occupation/0464b062-cea6-4164-b10d-956c61956ae7,2529,ICT security administrator,"system security administrator
+information security administrator
+network security administrator
+ICT security administrators
+IT security administrator
+CISO",,released,2024-01-26T09:53:59.172Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","ICT security administrators plan and carry out security measures to protect information and data from unauthorised access, deliberate attack, theft and corruption.",2529.6
+Occupation,http://data.europa.eu/esco/occupation/491cf76d-eb0d-4f15-90f0-3f5c9b11472a,2120,gambling quality assurance engineer,"gaming quality assurance engineer
+betting quality controller
+lottery quality assurance engineer
+lottery quality controller
+betting quality assurance engineer
+test operator in gambling
+gambling quality controller
+gambling engineer",,released,2024-02-08T10:29:53.03Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Gambling quality assurance engineers design and plan methods to test the gambling, the lottery or betting games. They execute the tests. These games can be both for public or for private audience, and the tests are for both online and land-based gaming.",2120.4
+Occupation,http://data.europa.eu/esco/occupation/244a79eb-122b-4bee-8065-b4c39efce4ff,2412,corporate investment banker,"operational investment banker
+investment banking associate
+investment banker
+corporate investment adviser
+corporate investment strategist
+corporate banker",,released,2024-02-09T17:29:10.678Z,http://data.europa.eu/esco/regulated-professions/unregulated,"Includes people performing activities to monitor the compliance of legal regulations and to advise on financial transactions and deals. 
+Includes people performing research and analysis. 
+Excludes people performing investor relations management.",,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Corporate investment bankers offer strategic advice on financial services to companies and other institutions. They ensure that legal regulations are being followed by their clients in their efforts of raising any capital. They provide technical expertise and information on mergers and acquisitions, bonds and shares, privatisations and reorganisation, raising capital and security underwriting, including equity and debt markets.",2412.6.1
+Occupation,http://data.europa.eu/esco/occupation/8b8ae0a5-342c-43ae-b856-e1fea6fd6d1c,7412,power tool repair technician,"power tool equipment inspector
+power compressor repairman
+machine repairer
+power tool repairman
+power tool equipment repairer
+power compressor mechanic
+power tool craftsman
+power tool equipment operative
+power compression repairer
+tool repair technician
+power compressor inspector
+machine tool repair technician
+power tool maintainer
+power tool equipment operator
+power tool maintenance operative
+tool repair inspector
+power tool mechanic
+power tool maintenance worker
+hand tool repair technician",,released,2024-01-25T14:22:45.873Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Power tool repair technicians identify defects and repair electrically powered tools such as drills, chainsaws, lawn mowers and grinding machines. They disassemble, test and replace defective parts in tools. Power tools repair technicians advise customers on maintenance products and methods for their equipment. They may sell such products.",7412.10
+Occupation,http://data.europa.eu/esco/occupation/6a6ce738-b049-4521-b402-8e1f346c7eca,2635,homelessness worker,"homelessness case worker
+homeless care worker
+homeless case worker
+homeless guidance worker
+homeless advice worker
+homeless team worker
+homelessness support worker
+homelessness team worker
+homelessness advice worker
+housing options and advice worker
+homeless support worker
+homeless social worker
+homelessness care worker
+homelessness social worker
+homelessness guidance worker",,released,2024-01-22T17:35:51.759Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Homelessness workers provide on-the-spot assistance, counselling and advice to people who have housing problems or live on the streets. They present them with services available to homeless people starting from hostel vacancies to financial aid services. They may have to cope with persons with mental health problems, addictions or victims of domestic or sexual abuse.",2635.3.15
+Occupation,http://data.europa.eu/esco/occupation/57a73b7c-cf10-4852-b067-c25833fa149e,3211,clinical perfusion scientist,"clinical perfusion expert
+medical perfusionist
+medical perfusion scientist
+medical perfusion techinician
+clinical perfusion techinician
+clinical perfusionist
+medical perfusion expert",,released,2024-01-24T15:38:38.964Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Clinical perfusion scientists operate heart-lung equipment during surgical operations to ensure breathing and blood circulation. They work as part of the surgical team, connect patients to the heart-lung machines in preparation for surgery, monitor their condition during surgery, report to the team on the patients' status and determine the necessary techniques according to their needs.",3211.1
+Occupation,http://data.europa.eu/esco/occupation/f07aab15-c7e8-49a4-a8dd-221d9cf3a925,1420,fuel station manager,"supermarket filling station manager
+gas station manager
+fuel site manager
+petrol station manager
+retail fuel forecourt manager
+retail fuel manager
+petrol site manager
+fuel retail manager
+retail forecourt manager
+filling station manager",,released,2024-01-26T12:46:21.959Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Fuel station managers assume responsibility for activities and staff in a fuel station.,1420.4.24
+Occupation,http://data.europa.eu/esco/occupation/d8ed1703-9c03-4ea0-83cc-b6169bc54ffd,4416,human resources assistant,"human resources secretary
+human resources executive assistant
+human resources associate
+human resources administrative assistant",,released,2024-01-23T12:23:08.103Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Human resources assistants provide support in all the processes and efforts carried by human resources managers. They help in the preparation of recruitment processes by scanning CVs and narrowing the selection to the most suitable candidates. They perform administrative tasks, prepare communications and letters, and perform the tabulation of the surveys and assessments carried out by the department.",4416.1
+Occupation,http://data.europa.eu/esco/occupation/73357956-f607-4baa-9ce6-03beb9b39da2,5223,sales processor,"order processor
+order processing representative
+sales order co-ordinator
+e-commerce sales processor
+sales order assistant
+sales order processor
+trainee order processor
+order processing salesperson
+order entry and transfer processor
+order processing sales person
+senior order processor
+sales order administrator
+graduate sales processor
+graduate sales order processor
+e-commerce sales order processor
+senior sales processor
+order entry and transfer co-ordinator",,released,2024-02-06T13:42:42.833Z,http://data.europa.eu/esco/regulated-professions/unregulated,Excludes people performing manually processing orders.,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Sales processors handle sales, select channels of delivery, execute orders and inform clients about dispatching and procedures. They communicate with clients in order to address missing information and/or additional details.",5223.5
+Occupation,http://data.europa.eu/esco/occupation/3c0af499-39f6-4468-9ba4-b13a26d5f888,8122,abrasive blasting operator,"abrasive blasting cabinet operative
+sand blast operative
+abrasive sandblaster
+sander operative
+sand mill grinder
+sander
+abrasive blaster
+shot blaster
+sand blasting operator
+sandblaster
+sand blaster
+sand-blaster
+sand blast operator
+abrasive blasting operative
+sander operator
+sand mill blaster
+abrasive shot baster
+grit blaster",,released,2023-11-28T09:46:37.746Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Abrasive blasting operators use the proper equipment and machinery to smoothen rough surfaces by abrasive blasting. Abrasive blasting is commonly used in the finishing process of metal workpieces and for blasting building materials used in masonry such as bricks, stones and concrete. They operate blasters or sand cabinets which forcibly thrust a stream of abrasive material such sand, soda or water, under high pressure, propelled by a centrifigal wheel, in order to shape and smoothen surfaces.",8122.1
+Occupation,http://data.europa.eu/esco/occupation/fde97584-d8e3-413e-a662-511c9055357e,4222,live chat operator,"real time chat operator
+online chat operator
+virtual chat agent
+live chat agent
+online chat agent
+virtual chat operator",,released,2024-01-25T09:29:21.709Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Live chat operators respond to answers and requests posed by customers of all nature through online platforms in websites and online assistance services in real time. They are available to provide service through chat platforms and have the ability to solve inquiries of clients via written communication merely.,4222.1.1
+Occupation,http://data.europa.eu/esco/occupation/6188bf20-5cdb-4702-af72-2cb67ec39810,7412,theme park technician,"ride maintenance engineer
+aquatic technician
+engineering supervisor
+ride mechanical engineer",,released,2024-01-25T14:24:18.619Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Theme park technicians work to maintain and repair amusement park attractions. They need a strong technical knowledge and have specialised knowledge of the rides they are assigned to maintain. Theme park technicians usually keep records of the maintenance and repairs performed as well as uptime and downtime for each serviced attraction. Attention to safety is especially important in the maintenance and repair of amusement park rides.,7412.12
+Occupation,http://data.europa.eu/esco/occupation/158965f1-bd83-441c-bca8-1975b74dedc5,7231,vehicle restoration technician,"old car restorer
+car restoration technician
+car interior restorer
+classic car restorer
+vintage car restorer
+car interior restoration technician
+can interior specialist
+car restorer
+restoration technician
+vehicle restorer
+classic car restoration technician
+vehicle interior restorer
+classic vehicle restorer
+automotive restoration technician
+old car restoration technician
+vintage vehicle restorer
+old vehicle restorer",,released,2023-01-12T10:40:05.376Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Vehicle restoration technicians overhaul old and classic vehicles as cars.,7231.5
+Occupation,http://data.europa.eu/esco/occupation/4ae3ad16-2d33-406c-8497-c66f7d61b914,5223,second-hand goods specialised seller,"army surplus goods salesperson
+second hand bookshop salesperson
+vintage clothes salesperson
+second-hand goods specialized seller
+thrift shop specialised seller
+army surplus goods specialised seller
+second-hand goods salesperson
+charity shop specialised seller
+thrift shop salesperson
+vintage clothes specialised seller
+charity shop salesperson
+second hand goods specialised seller",,released,2016-07-05T17:14:19Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Second-hand goods specialised sellers sell second-hand goods such as books, clothes, appliances etc. in specialised shops.",5223.7.30
+Occupation,http://data.europa.eu/esco/occupation/6f7c1e84-8162-4c20-a575-b57ff624eef5,8322,taxi driver,"driver of taxi
+private hire driver
+private driver
+cab driver
+chauffeur
+minicab driver",,released,2024-01-16T11:26:09.485Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Taxi drivers operate a licensed private passenger transportation vehicle, looking after customers, taking fares and managing vehicle servicing.",8322.7
+Occupation,http://data.europa.eu/esco/occupation/808b5940-8092-4f08-bc37-9b60ee5761d8,2146,assayer,"geo-science technician
+silver assayer
+precious metal assayer
+assay laboratory  technician
+fire assayer
+mineralogy assayer
+chemical analyst
+metal assayer
+mining assayer
+metal tester
+gold assayer",,released,2024-01-23T11:01:03.19Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Assayers test and analyse precious metals such as silver and gold to determine the value and properties of components using chemical and physical techniques. They also seperate precious metals or other components from other materials.,2146.1
+Occupation,http://data.europa.eu/esco/occupation/e3b08984-19fe-4d51-a1b0-990676fc7234,2621,archivist,"archives record clerk
+digital archivist
+archives and manuscripts librarian
+land register archivist
+cadastral archivist
+archives specialist
+processing archivist
+reference archivist
+archives researcher",,released,2024-01-25T15:12:17.574Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Archivists assess, collect, organise, preserve and provide access to records and archives. Records maintained are in any format, analogue or digital and include several kinds of media (documents, photographs, video and sound recordings, etc.).",2621.1
+Occupation,http://data.europa.eu/esco/occupation/f8e76759-811e-4b39-9adf-3e77429cff8f,7536,shoemaker,"custom shoemaker
+hand craft shoe maker
+shoe repairer
+cobbler
+traditional shoe manufacturer",,released,2024-01-25T14:48:53.919Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Shoemakers use hand or machine operations for traditional manufacturing of a various range of footwear. They also repair all types of footwear in a repair shop.,7536.2
+Occupation,http://data.europa.eu/esco/occupation/0da75680-fbf9-44d8-802a-ac12eb425a34,3141,biotechnical technician,"biotechnological laboratory technician
+biotechnical laboratory worker
+biotechnical laboratory employee
+biotechnical laboratory technician
+biotechnological technician
+biotechnical laboratory specialist",,released,2024-01-24T15:33:40.837Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Biotechnical technicians perform technological work in assistance of scientists. They work in laboratory settings where they help scientists to research, develop and test forms of biotechnology. They set up lab equipment, prepare scientific tests and gather scientific data.",3141.1
+Occupation,http://data.europa.eu/esco/occupation/0ededdc2-050a-4ec3-8e70-6295105fcd19,5244,call centre agent,"outbound call center agent
+call centre taker
+outbound call centre agent
+telephone sales generator
+call centre rep
+inbound call centre agent
+telephone service attendant
+telephone sales representative
+telemarketing operator
+inbound telemarketer
+outbound sales agent
+call centre operative
+telephone operator
+outbound telemarketer
+telemarketer
+call centre operator
+telephone sales agent
+telephone solicitor
+call center agent
+call centre representative
+call centre service agent
+inbound call center agent
+inbound sales agent
+telemarketing agent
+call center representative",,released,2023-06-29T16:02:38.164Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Call centre agents handle incoming or outgoing customer calls for a business. They call existing and prospective customers to promote goods and services. They also obtain sales and arrange sales visits.,5244.1
+Occupation,http://data.europa.eu/esco/occupation/bfe142b9-a049-4d41-89c4-fd2f34ac56b6,3313,accounting assistant,"junior accountant
+assistant accountant
+accountant assistant
+finance assistant
+billing and accounting assistant",,released,2023-12-01T16:18:20.138Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Accounting assistants record and report ticketing accounting situations to the accountant they work with, verify deposits and prepare daily reports and income. They arrange authorised refund vouchers, maintain the returned check accounts and communicate with ticketing managers concerning about any  issues with ticketing systems.",3313.1
+Occupation,http://data.europa.eu/esco/occupation/c90e5009-37f2-4dcd-aea2-362fc817bc98,1330,ICT environmental manager,"information and communication technologies environmental manager
+information technologies environmental manager
+ICT environment managers
+ICT environment manager
+IT environmental manager",,released,2024-01-25T12:32:11.333Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","ICT environmental managers know the green ICT legal framework, understand the role of the ICT network configurations in the economy and energy resources deployment and evaluate the impact of CO2 footprint of each ICT resource in the organisation's network. They plan and manage the implementation of environmental strategies for ICT networks and systems by conducting applied research, developing organisational policy, and devising strategies to meet sustainability targets. They ensure that the whole organisation uses ICT resources in a way that is as friendly as possible for the environment.
+",1330.10
+Occupation,http://data.europa.eu/esco/occupation/b2cac4bc-abb7-41b3-a515-2ad006b8ebf6,7543,control panel tester,"electrical test technician
+control panel inspection technician
+electrical inspection and test  technician
+electric control panel repairer
+control tester
+panels tester
+inspector of control panels
+technician expert in electrical control panels
+electric control panel tester and repairer
+tester of control panels
+controls tester
+panel tester
+control panel testing technician
+control panel testing technologist
+panel wireman
+electro-mechanical test technician
+control panel test technician
+electric control panel fault-finder
+tester of electrical control panels
+electrical control panel test technician
+panel builder
+control panel testing technology expert
+control panel inspector
+electric control panel tester
+electrical control panel tester
+electric control panel inspector and tester
+control panel testing technology specialist",,released,2024-01-25T14:51:20.998Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations",Control panel testers test the electrical control panels. They read blueprints to check if the wiring is connected correctly. Control panel testers use electrical measuring and testing equipment to detect malfunctions and may correct faulty wiring and components.,7543.4
+Occupation,http://data.europa.eu/esco/occupation/53d55c80-6a82-4187-b59f-b737aa4cdaab,8153,leather goods stitching machine operator,,,released,2023-08-10T19:39:05.225Z,http://data.europa.eu/esco/regulated-professions/unregulated,"Includes joining, decorating and reinforcing pieces of leather good products using single, double or multiple-needle stitching machines.",,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Leather goods stitching machine operators join the cut pieces of leather and other materials to produce leather goods, using tools and a wide range of machines, such as flat bed, arm and one or two columns. They also handle tools and monitor machines for preparing the pieces to be stitched, and operate the machines. They select threads and needles for the stitching machines, place pieces in the working area, and operate with machine guiding parts under the needle, following seams, edges or markings or moving edges of parts against the guide.",8153.1.4
+Occupation,http://data.europa.eu/esco/occupation/2412bbb1-29ca-4e17-a2b8-70694f0cb14f,2359,educational counsellor,"student advisor
+counsellor in school
+counselling student advisor
+childrens' counsellor
+study coordinator
+counsellor in education institution
+educational counselor
+student counsellor
+student services coordinator
+vocational school counsellor
+student guidance counsellor
+education counsellor
+student adviser
+training adviser
+study adviser
+high-school counsellor
+education institution counsellor
+school counsellor
+guidance counsellor",,released,2023-08-10T16:33:38.203Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Educational counsellors provide practical and emotional support to students in a educational institution, either in small groups, classrooms, or individually. They function as an accessible school official whom students may contact for a wide variety of issues. Educational counsellors may provide advice on personal problems such as social integration and behavioural issues, and on school-related matters such as composing adequate curriculum schedules, discussing test scores, and informing students on further education options. They may work closely with a school social worker and/or school psychologist and make referrals to other support services if necessary.",2359.8
+Occupation,http://data.europa.eu/esco/occupation/c9d89e09-d57f-4980-9164-880e60711e97,1345,primary school head teacher,"primary education head teacher
+primary school headteacher
+primary school headmaster
+head teacher of primary school
+elementary school principal
+primary school director
+headteacher of primary school
+headmaster of primary school
+primary education headteacher
+primary school principal
+director of primary school",,released,2024-01-10T15:09:06.588Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Primary school head teachers manage the day-to-day activities of a primary school or elementary school. They manage staff, make decisions concerning admissions and are responsible for meeting curriculum standards, which are age-appropriate for primary school students and facilitate social and academic development education. They also ensure the school meets the national education requirements set by law.",1345.1.6
+Occupation,http://data.europa.eu/esco/occupation/5793c124-c037-47b2-85b6-dd4a705968dc,5412,police officer,"state police officer
+policewoman
+law enforcement officer
+police constable
+public roads surveillance officer
+constable
+mounted police officer
+policeman
+railroad police officer
+highway patrol officer
+railway police officer
+patrol officer
+state trooper",,released,2024-01-23T09:45:10.405Z,http://data.europa.eu/esco/regulated-professions/unregulated,"Includes state <a resource=""http://data.europa.eu/esco/occupation/5793c124-c037-47b2-85b6-dd4a705968dc"" typeOf=""http://data.europa.eu/esco/model#Occupation"" href=""http://data.europa.eu/esco/occupation/5793c124-c037-47b2-85b6-dd4a705968dc""><span property=""http://www.w3.org/2000/01/rdf-schema#label"" xml:lang=""en"">police officer</span></a>.",,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Police officers use investigation methods to prevent crime, to pursue and apprehend criminals, and protect the public from violent and criminal activities. They perform surveillance and patrol activities to prevent crimes and apprehend offenders. They provide support to victimised parties and the public at large, and fulfil administrative duties.",5412.1
+Occupation,http://data.europa.eu/esco/occupation/976cbfcc-8958-4800-a435-71d15405a42a,2352,special educational needs teacher,"autism teacher
+special education resource teacher
+special educational needs professional
+teacher in special education needs
+teacher for hearing impaired children
+special needs educator
+SEN teacher
+teacher of special educational needs
+educator in special educational needs
+special needs teacher
+special education teacher",,released,2023-12-21T09:40:11.953Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Special educational needs teachers work with and teach children, young people, and adults with an intellectual or physical disability. They use a range of specialised concepts, strategies and tools to optimise learners' communication, mobility, autonomy, and social integration. They select teaching methods and support resources to enable individual learners to maximise their potential for independent living.",2352.1
+Occupation,http://data.europa.eu/esco/occupation/1a7fb683-6544-4442-b54c-ec72ef468ff0,2654,video and motion picture director,"television director
+film maker
+series director
+movie director
+video director
+motion picture director
+TV director
+animation supervisor
+film director
+television and motion picture director
+animated movie director
+adventure film maker
+director
+film-maker",,released,2024-01-25T11:28:53.264Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Video and motion picture directors are responsible for the overall production of a movie or television program. They edit and translate the script into audiovisual images. Video and motion picture directors supervise and manage the film crew. They convey their creative vision on the actors, audio and video equipment operators, lighting technicians, etc and direct them. Video and motion picture directors also supervise the editing of the footage.",2654.1.8
+Occupation,http://data.europa.eu/esco/occupation/c530b0ee-46f8-40fb-818c-d9b44b891cb9,1221,banking products manager,"electronic banking products manager
+savings products manager
+commercial banking products director
+mortgage products manager
+financial institution products manager
+banking product manager
+internet banking manager
+credit cards product manager
+credit products manager
+bank products supervisor
+internet banking executive
+e-banking products manager
+e-banking product executive
+banking products director
+senior banking products manager
+commercial banking products manager
+banking products analyst",,released,2024-01-25T12:13:34.747Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Banking products managers study the market of banking products and adapt the existing ones to the characteristics of this evolution or create new products to suit clients needs. They monitor and evaluate the performance indicators of these products and suggest improvements. Banking products managers assist with the sales and marketing strategy of the bank.,1221.2
+Occupation,http://data.europa.eu/esco/occupation/62f53135-e091-4aa6-8895-5851d72271b9,8160,clarifier,"oil extractor operative
+clarifier machine controller
+oil extractor operator
+clarifier equipment operator",,released,2024-01-16T09:39:14.465Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Clarifiers operate equipment to remove sediments and moisture from oleo and oils. They heat clarifying tank with steam and strainers for the clarification process. They remove foreign matters from the surface of hot oleo or oil stacks using skimmers.,8160.19
+Occupation,http://data.europa.eu/esco/occupation/35d41f4f-334b-452e-9e31-99f376302493,2152,optoelectronic engineer,"specialist in optoelectronics
+optoelectronic engineering adviser
+optoelectronic engineering consultant
+engineer in optoelectronic systems
+optoelectronic technology engineering expert
+engineer in optoelectronics
+optoelectronics specialist
+optoelectronic technology engineering specialist
+optoelectronic technology engineering adviser
+opto-electronics engineer
+optoelectronic technology engineering consultant
+optoelectronic engineering expert
+opto electronics engineer
+opto-electronical engineer
+senior optoelectronic engineer
+optoelectronic systems engineer
+optoelectronics engineer
+optoelectronic engineering specialist
+optoelectronic technology engineer
+opto electronic engineer
+optoelectronical engineer
+opto electronical engineer
+opto-electronic engineer
+specialist in optoelectronic systems",,released,2024-01-26T15:39:43.027Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/8ae4b9f3-507e-4057-a145-2f96f0132613","Optoelectronic engineers design and develop optoelectronic systems and devices, such as UV sensors, photodiodes, and LEDs. Optoelectronic engineering combines optical engineering with electronic engineering in the design of these systems and devices. They conduct research, perform analysis, test the devices, and supervise the research.",2152.1.11
+Occupation,http://data.europa.eu/esco/occupation/0368c4d4-94cf-4168-a84d-283a25880e0d,1321,metal production manager,"metal development managers
+facility manager
+metal engineer
+operations manager
+metal development engineers
+development engineer
+metal planning engineer
+plant manager
+metal development experts
+site manager",,released,2024-01-17T16:10:56.055Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Metal production managers organise and manage the day-to-day and long-term project work in a metal fabrication factory, to process basic metals into fabricated metals. They create and schedule production plans, recruit new staff, enforce safety and company policies, and strive for customer satisfaction through guaranteeing the product's quality.
+",1321.2.1.8
+Occupation,http://data.europa.eu/esco/occupation/adf9257e-78cb-467d-b259-59ed65bd7aed,3112,fire safety tester,"fire safety testing technologist
+fire inspection testing technology expert
+fire tester
+fire inspection technician
+fire safety testing technology expert
+fire inspection testing technology specialist
+fire safety testing technology specialist
+fire safety testing technician
+fire inspection testing technologist",,released,2024-01-26T14:07:33.673Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Fire safety testers conduct a variety of tests on materials such as building, transportation and textiles materials, as well as on fire prevention and fire fighting systems. They measures, among other things, the flame resistance and behaviour of materials under extreme circumstances.",3112.1.8
+Occupation,http://data.europa.eu/esco/occupation/43c86ca8-7357-4e8e-9a1c-bae427f61c5e,8181,auger press operator,"auger extrusion press operator
+auger press worker
+flue tile press operator
+drain tile press operator
+auger press operative
+sewer pipe press operator
+manual control auger press operator
+manual control auger press worker
+auger press operative manual control
+manual control auger press operative",,released,2024-01-16T09:37:45.172Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Auger press operators control and adjust an auger-press in order to perform clay forming, extrusion and cutting operations on products according to specifications.",8181.1
+Occupation,http://data.europa.eu/esco/occupation/02eb0ae6-ecdd-4602-9c8e-60ffe6dbe1e2,2153,telecommunications engineer,"broadcast engineer
+telecommunications designer
+telecommunications technologist
+communications designer
+telecommunications engineers
+communications engineer
+transmission engineer
+telecoms engineer
+telecom engineer
+information systems engineer
+radio engineer",,released,2024-01-26T11:25:53.84Z,http://data.europa.eu/esco/regulated-professions/unregulated,Excludes people performing managerial activities.,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Telecommunications engineers design, build, test and maintain telecommunication systems and networks, including radio and broadcasting equipment.
+They analyse customer needs and requirements, ensure that the equipment meets regulations, and prepare and present reports and proposals on telecommunication-related problems. Telecommunications engineers design and oversee the service delivery in all it's phases, supervising the installation and use of telecommunications equipment and facilities, preparing documentation and providing training for company staff once new equipment has been installed. ",2153.1
+Occupation,http://data.europa.eu/esco/occupation/3fa31588-2e4d-49c3-b839-4b615cc62742,2422,humanitarian advisor,"non governmental organisation officer
+charity worker
+humanitarian affairs officer
+humanitarian affairs advisor
+humanitarian assistance advisor
+humanitarian consultant",,released,2024-01-16T14:38:27.001Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Humanitarian advisors ensure strategies to reduce the impact of humanitarian crises on a national and/or international level. They provide professional advice and support and this in collaboration with different partners.,2422.7
+Occupation,http://data.europa.eu/esco/occupation/c2d36adb-ecf4-4823-980b-d84b0f11b2c8,2151,battery simulation engineer,"battery modeling specialist
+battery simulation test expert
+battery test development engineer
+device test engineer
+electronics product test engineer
+battery test validation engineer
+battery simulation specialist
+sustaining engineer
+battery calibration engineer
+electrical failure analysis engineer",,released,2024-01-03T13:51:55.884Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Battery simulation engineers predict the performance of batteries and battery systems under different conditions using mathematical models and simulation tools. They work with a team of engineers and scientists to create accurate and reliable simulations of the battery systems, which can be used to analyze and optimize the design, performance, and safety of the batteries. They are responsible for developing and maintaining the simulation models, performing simulations and analyzing the results, and providing recommendations for design changes and improvements.",2151.3
+Occupation,http://data.europa.eu/esco/occupation/4370b117-d9ec-424c-80de-fd92ba740f65,8342,road roller operator,"roller-compactor operator
+rough roller operator
+vibrating roller driver
+ride on road roller operator
+walk-behind roller operator
+ride on roller driver
+roller operator
+roller operative
+ride on roller operator
+road roller driver
+walk-behind road roller operator
+roller-compactor driver
+roller driver
+vibrating roller operator",,released,2024-01-16T13:41:43.447Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Road roller operators work with equipment to compact a variety of materials, such as soil, gravel, concrete or asphalt, in the construction of roads and foundations. They walk behind, or sit on top of the road roller, depending on the type and size, and roll over the area to be compacted.",8342.7
+Occupation,http://data.europa.eu/esco/occupation/a1acd539-c359-4af3-8a4a-07f1b611e368,9212,catcher,"poultry catcher
+poultry gatherer
+poultry herder
+chicken gatherer
+chicken catcher
+chicken herder",,released,2023-10-24T12:25:47.44Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations",Catchers are specialists working at poultry farms to catch the poultry.,9212.1
+Occupation,http://data.europa.eu/esco/occupation/6a3d3d28-0ab6-49b0-9a32-697e5e104bf1,2133,soil scientist,"soil testing technician
+soil biologist
+senior soil scientist
+soil biology specialist
+lead senior soil scientist
+soil wetland scientist
+soil analyst
+acidity tester
+soil technician",,released,2024-01-23T10:57:24.753Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Soil scientists research and study scientific disciplines concerning soil. They advise on how to improve soil quality to support nature, food production or human infrastructure using surveying techniques, irrigation techniques and erosion reduction measures. They make sure to conserve and restore land suffering from intense farming or human interaction.",2133.11
+Occupation,http://data.europa.eu/esco/occupation/f4f671d5-208f-4423-a250-c049de8d9adc,2250,animal hydrotherapist,"animal hydrotherapists
+veterinary hydrotherapist",,released,2024-01-25T10:18:57.286Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Animal hydrotherapists provide a therapeutic treatment following veterinary diagnosis or referral. They concentrate on use of water-resistance to treat conditions, assist post-operative recovery, give pre-operative exercises and enhance general fitness in accordance with national legislation.",2250.4.1
+Occupation,http://data.europa.eu/esco/occupation/0ea36a48-a27d-4515-b61f-3cab395cf60f,3114,microelectronics engineering technician,"microelectronics technician
+micro-electronics engineering technician
+technician in microelectronic engineering
+technologist in microelectronics
+microelectronics process engineering technician
+microelectronics technologist
+technologist in microelectronic systems
+microelectronic equipment technologist
+microelectronic systems technologist",,released,2024-01-24T15:20:13.87Z,http://data.europa.eu/esco/regulated-professions/unregulated,"Excludes <a resource=""http://data.europa.eu/esco/occupation/26e1add0-da3f-4ed6-aa91-791cb550146f"" typeOf=""http://data.europa.eu/esco/model#Occupation"" href=""http://data.europa.eu/esco/occupation/26e1add0-da3f-4ed6-aa91-791cb550146f""><span property=""http://www.w3.org/2000/01/rdf-schema#label"" xml:lang=""en"">microsystem engineering technician</span></a>. 
+ Excludes people using materials such as quartz, plastics and ceramics.",,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Microelectronics engineering technicians collaborate with microelectronics engineers in the development of small electronic devices and components such as micro-processors, memory chips, and integrated circuits for machine and motor controls. Microelectronics engineering technicians are responsible for building, testing, and maintaining the microelectronic systems and devices.",3114.1.6
+Occupation,http://data.europa.eu/esco/occupation/1313aeea-63a9-4b4d-82d1-dbe00ff9ed10,1219,corporate social responsibility manager,"corporate sustainability reporting manager
+sustainability reporting manager
+sustainable services manager
+sustainability project manager
+corporate responsibility director
+corporate responsibility manager
+chief sustainability officer
+corporate sustainability director",,released,2024-01-16T14:39:32.436Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Corporate social responsibility managers monitor the practices of organisations and companies with regard to ethics and impact on the larger community. They advise on social responsibility and sustainability matters depending on the company's needs. Corporate social responsibility managers promote actions that are environmentally conscious, philanthropic or related to human rights.",1219.2
+Occupation,http://data.europa.eu/esco/occupation/e9f0b7ae-c848-464e-af9d-55eb87a592e0,8122,anodising machine operator,"anodiser
+anode treater operator
+anodise machine operator
+anode line operator
+anode machine operative
+anodising line technician
+anode machine technician
+anodising machine operative
+anode treater
+anode machine operator",,released,2024-01-23T10:09:49.845Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Anodising machine operators set up and tend anodising machines designed to provide otherwise finished metal workpieces, usually aluminum-based, with a durable, anodic oxide, corrosion-resistant finishing coat, by a electrolyctic passiviation process that increases the thickness of the natural oxide layer of the metal workpieces' surface.",8122.2
+Occupation,http://data.europa.eu/esco/occupation/6f74ebc4-ab7e-42a8-ad94-921f3d0ef0c6,7126,sewerage network operative,"sewerage network repair operative
+sewerage network clearing  operative
+wastewater infrastructure operator
+wastewater infrastructure operative
+wastewater system operative
+sewerage network operator
+wastewater treatment works operative
+wastewater distribution equipment operative
+wastewater systems operative
+wastewater network operative
+sewerage system maintenance operative
+sewerage network maintenance operative
+sewerage network inspection operative",,released,2024-01-23T11:40:55.055Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/member-occupations,
+http://data.europa.eu/esco/concept-scheme/occupations","Sewerage network operatives maintain sewerage systems which remove and transport wastewater and sewerage. They inspect pipes, pumping stations, and mains, looking for leaks or other faults, and repair any problems. They clear blockages, and perform maintenance duties, using network maps and specialised software.",7126.10
+Occupation,http://data.europa.eu/esco/occupation/8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f,2265,dietitian,"public health nutritionist
+specialist dietician
+dietician",,released,2024-01-25T10:41:03.348Z,http://data.europa.eu/esco/regulated-professions/unregulated,Includes people performing education activities to develop healthy and balanced food habits in people's daily lives.,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Dietitians assess specific nutritional requirements of populations or individuals throughout their lives and translate this into advice which will maintain, reduce risk to, or restore people’s health. Using evidence-based approaches, dietitians work to empower individuals, families and groups to provide or select food which is nutritionally adequate, safe, tasty and sustainable. Beyond healthcare, dietitians improve the nutritional environment for all through governments, industry, academia and research.",2265.1
+Occupation,http://data.europa.eu/esco/occupation/5c082067-ea18-4ccb-8c43-e70b18ad8120,7223,computer numerical control machine operator,"CNC machinist
+cnc programmer/machinist
+CNC set up technician
+cnc operator
+cnc programmer
+CNC set-up operative
+CNC drill operator
+CNC drill technician
+CNC operator/machinist
+CNC drill operative
+CNC mill operator
+CNC mill operative
+CNC set-up operator
+CNC drilling operator
+CNC machine operative
+CNC set up operative
+CNC drilling operative
+CNC programmer/machinist
+CNC machine operator
+cnc operator/machinist
+CNC programmer
+CNC set-up technician
+cnc machinist
+computer numerical control machine programmer/operator
+CNC set up operator",,released,2024-01-16T16:15:29.417Z,http://data.europa.eu/esco/regulated-professions/unregulated,,,"http://data.europa.eu/esco/concept-scheme/occupations,
+http://data.europa.eu/esco/concept-scheme/member-occupations","Computer numerical control machine operators set-up, maintain and control a computer numerical control machine in order to execute the product orders. They are responsible for programming the machines, ensuring the required parameters and measurements are met while maintaining the quality and safety standards.",7223.4
