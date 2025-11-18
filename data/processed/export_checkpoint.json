@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-11-18T03:02:51.104125",
+  "loaded_files": [
+    "occupations_en.csv",
+    "skills_en.csv",
+    "skillGroups_en.csv",
+    "ISCOGroups_en.csv",
+    "occupationSkillRelations_en.csv",
+    "skillSkillRelations_en.csv",
+    "skillsHierarchy_en.csv",
+    "broaderRelationsOccPillar_en.csv",
+    "broaderRelationsSkillPillar_en.csv",
+    "digitalSkillsCollection_en.csv",
+    "greenSkillsCollection_en.csv",
+    "languageSkillsCollection_en.csv",
+    "transversalSkillsCollection_en.csv",
+    "researchSkillsCollection_en.csv",
+    "researchOccupationsCollection_en.csv",
+    "digCompSkillsCollection_en.csv",
+    "conceptSchemes_en.csv"
+  ],
+  "total_rows": 180708,
+  "memory_usage": 253.15625
+}

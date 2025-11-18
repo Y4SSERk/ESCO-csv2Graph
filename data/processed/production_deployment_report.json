@@ -1,0 +1,25 @@
+{
+  "export_completed": "2025-11-18T03:03:01.592912",
+  "total_nodes": 1111,
+  "total_relationships": 161665,
+  "exported_files": [
+    "nodes_digcomp_skills.csv",
+    "nodes_digital_skills.csv",
+    "nodes_green_skills.csv",
+    "nodes_isco_groups.csv",
+    "nodes_language_skills.csv",
+    "nodes_occupations.csv",
+    "nodes_research_skills.csv",
+    "nodes_skills.csv",
+    "nodes_skill_groups.csv",
+    "nodes_transversal_skills.csv",
+    "relationships_collections.csv",
+    "relationships_hierarchy.csv",
+    "relationships_occupation_skill.csv",
+    "relationships_skill_skill.csv"
+  ],
+  "memory_optimization": "252.7 MB",
+  "validation_summary": {},
+  "deployment_ready": true,
+  "estimated_import_time_minutes": 80
+}

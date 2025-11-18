@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-11-18T03:02:55.643547",
+  "summary": {},
+  "details": {},
+  "warnings": [],
+  "errors": [],
+  "occupation_skill": {
+    "orphaned_starts": 0,
+    "orphaned_ends": 0,
+    "total_relationships": 129004,
+    "details": {
+      "starts": [],
+      "ends": [],
+      "total_starts": 0,
+      "total_ends": 0
+    }
+  },
+  "duplicates": {
+    "nodes_occupations.csv": {
+      "count": 0,
+      "sample": []
+    },
+    "nodes_skills.csv": {
+      "count": 0,
+      "sample": []
+    },
+    "nodes_skill_groups.csv": {
+      "count": 0,
+      "sample": []
+    },
+    "nodes_isco_groups.csv": {
+      "count": 0,
+      "sample": []
+    }
+  },
+  "relationship_issues": {
+    "circular_references": 0,
+    "missing_props_relationships_occupation_skill": {
+      ":START_ID": 0,
+      ":END_ID": 0,
+      ":TYPE": 0,
+      "relationType": 0,
+      "skillType": 59,
+      "isEssential": 0,
+      "weight": 0
+    }
+  },
+  "coverage_analysis": {
+    "digital_skills": {
+      "collection_size": 1284,
+      "total_skills": 13939,
+      "collection_ratio": 9.21156467465385,
+      "relationship_utilization": 99.53271028037383,
+      "interpretation": "Specialized collection (9.2% of total skills) with 99.5% occupation utilization"
+    },
+    "green_skills": {
+      "collection_size": 591,
+      "total_skills": 13939,
+      "collection_ratio": 4.239902432025253,
+      "relationship_utilization": 99.32318104906938,
+      "interpretation": "Specialized collection (4.2% of total skills) with 99.3% occupation utilization"
+    },
+    "language_skills": {
+      "collection_size": 359,
+      "total_skills": 13939,
+      "collection_ratio": 2.5755075686921587,
+      "relationship_utilization": 0.8356545961002786,
+      "interpretation": "Specialized collection (2.6% of total skills) with 0.8% occupation utilization"
+    },
+    "transversal_skills": {
+      "collection_size": 95,
+      "total_skills": 13939,
+      "collection_ratio": 0.6815410000717411,
+      "relationship_utilization": 12.631578947368421,
+      "interpretation": "Specialized collection (0.7% of total skills) with 12.6% occupation utilization"
+    },
+    "research_skills": {
+      "collection_size": 40,
+      "total_skills": 13939,
+      "collection_ratio": 0.2869646316091542,
+      "relationship_utilization": 92.5,
+      "interpretation": "Specialized collection (0.3% of total skills) with 92.5% occupation utilization"
+    }
+  },
+  "collection_completeness": {
+    "digital_skills": {
+      "original": 1284,
+      "exported": 1284,
+      "completeness": 100.0
+    },
+    "green_skills": {
+      "original": 591,
+      "exported": 591,
+      "completeness": 100.0
+    },
+    "language_skills": {
+      "original": 359,
+      "exported": 359,
+      "completeness": 100.0
+    },
+    "transversal_skills": {
+      "original": 95,
+      "exported": 95,
+      "completeness": 100.0
+    },
+    "research_skills": {
+      "original": 40,
+      "exported": 40,
+      "completeness": 100.0
+    }
+  }
+}
